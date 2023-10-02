@@ -1,0 +1,47 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.relative {
+    width: 400px; 
+    height: 200px;
+    margin: 100px auto;
+    position: relative;
+    margin-bottom: 2000px;
+}
+
+.relative .red {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    z-index: 5;
+}
+
+.relative .blue {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 6;
+}
+
+.round {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: green;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+}

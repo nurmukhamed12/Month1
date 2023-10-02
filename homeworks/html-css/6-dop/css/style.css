@@ -1,0 +1,49 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 87%;
+    height: 500px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col {
+    width: 30%;
+    height: 70%;
+}
+
+.col img {
+    width: 25%;
+    height: 60%;
+    position: absolute;
+    z-index: 1;
+}
+
+.text{
+    width: 25%;
+    text-align: center;
+    position: absolute;
+    z-index: 99;
+    margin-top: 400px;
+    color: rgb(0, 0, 0);
+    transition: 0.3s all linear;
+}
+
+.p {
+    opacity: 0;
+}
+
+.h2:hover {
+    .p {
+        opacity: 1;
+    }
+
+    .text{
+        margin-top: -200px;
+    }
+}

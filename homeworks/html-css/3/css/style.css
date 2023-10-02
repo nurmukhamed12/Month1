@@ -1,0 +1,110 @@
+.linkss {
+    list-style: none;
+}
+.linkss li{
+    display: inline-block;
+    margin: 80px;
+    margin-top: 5px;
+    margin-bottom: auto;
+
+}
+
+.linkss li a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s all linear;
+}
+
+li a:hover{
+    color: tomato;
+}
+
+li .line {
+    width: 0px;
+    height: 3px;
+    background-color: rgb(215, 25, 41);
+    transition: 0.3s all linear;
+    margin: auto;
+    
+}
+
+li:hover .line{
+    width: 100%;
+}
+
+
+.h1 {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.ff{
+    border: red solid;
+    border-radius: 35px;
+    width: 200px;
+    height: 5px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-color: red;
+}
+
+
+
+
+.first {
+    border: 1px solid rgb(245, 237, 17);
+    border-radius: 50px;
+    width: 350px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: inline-block;
+
+}
+/* 
+.second {
+    border: 1px solid rgb(245, 237, 17);
+    border-radius: 50px;
+    width: 350px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 20px 40px;
+}
+
+.third {
+    border: 1px solid rgb(245, 237, 17);
+    border-radius: 50px;
+    width: 350px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+} */
+
+h2 {
+    color: white;
+    text-align: center;
+
+}
+
+p {
+    color: #fff;
+}
+
+
+
+img {
+    border: 2px;
+    width: 340px;
+    height: 340px;
+    border-radius: 50px;
+    margin-left: 7px;
+
+}
